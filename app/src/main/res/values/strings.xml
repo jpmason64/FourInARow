@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FourInARow</string>
+    <string name="title">Four In A Row</string>
+    <string name="description">Try to connect four tiles in a row before the computer does. Click on a tile to select it when it is your turn.</string>
+    <string name="start_game">Play</string>
+    <string name="player_name">Player</string>
+    <string name="reset">Reset</string>
+</resources>

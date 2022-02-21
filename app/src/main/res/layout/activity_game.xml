@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/current_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:rowCount="6"
+        android:columnCount="6">
+
+        <Button
+            android:id="@+id/row_0_col_0"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_0_col_1"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+        <Button
+            android:id="@+id/row_0_col_2"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_0_col_3"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_0_col_4"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_0_col_5"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_1_col_0"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_1_col_1"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_1_col_2"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_1_col_3"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_1_col_4"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_1_col_5"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_2_col_0"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_2_col_1"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_2_col_2"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_2_col_3"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_2_col_4"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_2_col_5"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_3_col_0"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_3_col_1"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_3_col_2"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_3_col_3"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_3_col_4"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_3_col_5"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_4_col_0"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_4_col_1"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_4_col_2"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_4_col_3"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_4_col_4"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_4_col_5"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_5_col_0"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_5_col_1"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_5_col_2"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_5_col_3"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_5_col_4"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+
+        <Button
+            android:id="@+id/row_5_col_5"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:onClick="onTileClick"/>
+    </GridLayout>
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:enabled="false"
+        android:onClick="onReset"
+        android:text="@string/reset" />
+
+
+</LinearLayout>
